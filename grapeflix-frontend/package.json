@@ -1,0 +1,31 @@
+{
+    "name": "grapeflix-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.9.5",
+        "axios": "^1.4.0",
+        "next": "13.4.7",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-redux": "^8.1.1",
+        "typescript": "5.1.3"
+    },
+    "devDependencies": {
+        "@types/node": "20.3.1",
+        "@types/react": "18.3.1",
+        "eslint": "^8.43.0",
+        "eslint-config-next": "13.4.7"
+    },
+    "main": "next.config.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "/education-platform-frontend │ ├── package.json ├── tsconfig.json ├── next.config.js │ ├── src/ │   ├── components/ │   │   ├── common/ │   │   │   ├── Button.tsx │   │   │   ├── Input.tsx │   │   │   └── Layout.tsx │   │   ├── auth/ │   │   │   ├── LoginForm.tsx │   │   │   └── RegisterForm.tsx │   │   └── courses/ │   │       ├── CourseCard.tsx │   │       └── CourseList.tsx │   │ │   ├── pages/ │   │   ├── _app.tsx │   │   ├── index.tsx │   │   ├── login.tsx │   │   ├── register.tsx │   │   ├── dashboard.tsx │   │   └── courses/ │   │       ├── index.tsx │   │       └── [courseId].tsx │   │ │   ├── styles/ │   │   ├── globals.css │   │   └── theme.ts │   │ │   ├── store/ │   │   ├── index.ts │   │   ├── rootReducer.ts │   │   └── slices/ │   │       ├── authSlice.ts │   │       └── courseSlice.ts │   │ │   ├── services/ │   │   ├── api.ts │   │   ├── authService.ts │   │   └── courseService.ts │   │ │   └── types/ │       ├── User.ts │       └── Course.ts │ ├── public/ │   ├── favicon.ico │   └── logo.svg │ └── README_FRONTEND.md"
+}
